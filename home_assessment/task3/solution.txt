@@ -1,0 +1,4 @@
+The solution I offer:
+1. Store the list of features to be installed and users to be created in AWS Systems Manager Parameter Store (which can also handle secrets).
+2. For dedicated secret management, user credentials can be managed via AWS Secrets Manager.
+3. Use a PowerShell script to fetch and apply the desired configurations for convenience and automation.
